@@ -1,0 +1,26 @@
+.privacy-main {
+	text-align: center;
+	margin-top: 50px;
+	color: #fff;
+	margin: 100px;
+	list-style: none;
+}
+
+.privacy-title {
+	font-size: 40px;
+}
+
+body {
+  font-family: 'Lato';
+  color: white;
+}
+
+@media (max-width: 450px) {
+	.privacy-main {
+		margin: 25px;
+	}
+}
+
+ul {
+	list-style: none;
+}
