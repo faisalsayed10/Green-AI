@@ -1,4 +1,4 @@
-const URL = "https://teachablemachine.withgoogle.com/models/IngU9ZhbD/";
+const URL = "https://teachablemachine.withgoogle.com/models/mLhDa6ugX/";
 let model, webcam, labelContainer, maxPredictions;
 const text = document.querySelector(".text-display");
 
@@ -33,12 +33,12 @@ async function predict() {
 	const prediction = await model.predict(webcam.canvas);
 	for (let i = 0; i < maxPredictions; i++) {
 			const classPrediction =
-					prediction[i].className + ": " + prediction[i].probability.toFixed(2);
+					prediction[i].className + ": " + (prediction[i].probability.toFixed(2) * 100) + "%";
 			labelContainer.childNodes[i].innerHTML = classPrediction;
   }
 	if (prediction[1].probability > 0.5) {
 		text.innerHTML = "This item is not recyclable.";
 	} else if (prediction[1].probability < 0.5) {
-		text.innerHTML = "This item seems to be recyclable.";
+		text.innerHTML = "This item is recyclable.";
 	}
 }

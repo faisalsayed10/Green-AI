@@ -118,7 +118,7 @@ body {
 
 .button {
 	display: block;
-	margin: 30px auto;
+	margin: 30px;
 	border: 0;
   padding: 12px 20px;
   border-radius: 15px;
@@ -156,7 +156,7 @@ body {
 }
 
 .main-text {
-	font-size: 48px;
+	font-size: 58px;
 	color: #fff;
 	font-weight: 600;
 	margin-bottom: 100px;
