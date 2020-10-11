@@ -10,6 +10,11 @@ body {
 	background: linear-gradient(90deg, #FE8C00, #F83600);
 }
 
+canvas {
+	border: solid black 5px;
+	border-radius: 3px;
+}
+
 .button {
 	display: block;
 	margin: 30px auto;

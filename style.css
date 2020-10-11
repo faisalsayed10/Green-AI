@@ -64,8 +64,8 @@ body {
 	top: 0%;
 	margin: 20px;
 	left: 0%;
-	width: 48px;
-	height: 48px;
+	width: 60px;
+	height: 60px;
 	transition: 0.2s cubic-bezier(0.23, 1, 0.320, 1);
 }
 
@@ -168,7 +168,7 @@ body {
 
 
 .button:active {
-  background-color: darkslateblue;
+  background-color: #1C2E5A;
 	transform: scale(0.98);
 	box-shadow: 0px 2px 5px rgba(0,0,0,0.5);
 }
