@@ -121,6 +121,7 @@ body {
 	}
 }
 
-/* #webcam-container {
-	width: 50%;
-} */
+#label-container {
+	font-size: 24px;
+	font-weight: 500;
+}
