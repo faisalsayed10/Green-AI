@@ -1,5 +1,5 @@
 .privacy-main {
-	text-align: center;
+	// text-align: center;
 	margin-top: 50px;
 	color: #fff;
 	margin: 100px;
@@ -7,12 +7,16 @@
 }
 
 .privacy-title {
-	font-size: 40px;
+  text-align: center;
+	font-size: 42px;
 }
 
 body {
   font-family: 'Lato';
+  font-size: 28px;
   color: white;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 @media (max-width: 450px) {
